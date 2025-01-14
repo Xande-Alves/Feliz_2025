@@ -1,0 +1,61 @@
+.mainContent {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    img {
+        width: 750px; 
+    }
+
+    .textos {
+        margin-right: 40px;
+    }
+    .boasFestas {
+        text-align: right;
+        font-size: 36px;
+        font-weight: 300;
+        color: #3E3970;
+    }
+
+    .felicidades {
+        text-align: right;
+        font-size: 50px;
+        font-weight: 700;
+        color: #3E3970;
+    }
+
+    .mensagem2025 {
+        text-align: right;
+        font-size: 26px;
+        font-weight: 400;
+        color: #3E3970;
+    }
+}
+
+@media (max-width:500px) {
+    .mainContent {
+        flex-direction: column;
+        
+        img {
+            width: 100%;
+            height: auto;
+        }
+
+        .textos {
+            margin: 0;
+            width: 100%;
+            height: auto;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            margin-bottom: 50px;
+
+            .mensagem2025 {
+                font-size: 18px;
+                text-align: center;
+            }
+        }
+        
+    }
+}
